@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Helvetica, Arial;
+}
+
+h2, p {
+  margin: 24px;
+}
+
+h2#output, p#output {
+  font-size: 200%;
+}
+
+h2#hint, p#hint {
+  position: absolute;
+  bottom: 48px;
+  color: gray;
+}
+
+abbr {
+  text-decoration: none;
+  cursor: help;
+}
+
+#mobile {
+  display: none;
+}
+
+#mobile h2 {
+  margin-bottom: 12px;
+  color: #1F4E79;
+}
+
+#mobile p {
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  #mobile {
+    display: block;
+  }
+  #output, #hint {
+    display: none;
+  }
+}
+
+/* Made by Thundiverter */
+#madebythundiverter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 32px;
+  padding: 12px 0px 12px 0px;
+  background-color: #1F4E79;
+  color: #fff;
+  font-size: 90%;
+  text-align: center;
+}
+
+#madebythundiverter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#madebythundiverter a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

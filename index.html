@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>JS Get Key Info</title>
-        <link rel="stylesheet" href="style.css">
+        <title>JavaScript Key Info</title>
+        <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div id="mobile">
-            <h2>Desktop only</h2>
-            <p>This doesn't work on mobile devices</p>
+        <p class="ghlink">The table misses something? <a href="https://github.com/Thundiverter/js-get-key-info">Suggest on GitHub</a></p>
+        <div class="keyinfo-list" id="keyinfo">
+            <div><p>event.key</p><p id="ekey">Press</p></div>
+            <div><p>event.code</p><p id="ecode">any</p></div>
+            <div><p>event.which</p><p id="ewhich">button</p></div>
         </div>
 
-        <p id="output"><span style="color: gray">Press any button</span></p>
-        <p id="hint">Try to switch between keyboard layouts to see changes</p>
+        <table id="table">
+            <tr><th>event.key</th><th>event.code</th><th>event.which</th></tr>
+        </table>
 
         <div id="madebythundiverter">
             Made by <a href="https://thundiverter.github.io">Thundiverter</a>
         </div>
 
-        <script src="script.js"></script>
+        <!-- Script -->
+        <script src="js/keylist.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

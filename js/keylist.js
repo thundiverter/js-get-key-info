@@ -5,6 +5,7 @@ let keylist = [
     ['Shift', 'ShiftLeft<br/>ShiftRight', '16'],
     ['Control', 'ControlLeft<br/>ControlRight', '17'],
     ['Alt', 'AltLeft<br/>AltRight', '18'],
+	['Pause', 'Pause', '19'],
     ['CapsLock', 'CapsLock', '20'],
 
     [' ', 'Space', '32'],

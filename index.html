@@ -7,10 +7,26 @@
     </head>
     <body>
         <p class="ghlink">The table misses something? <a href="https://github.com/Thundiverter/js-get-key-info">Suggest on GitHub</a></p>
+        <div id="keyinfostart"><p>Press any button</p></div>
         <div class="keyinfo-list" id="keyinfo">
-            <div><p>event.key</p><p id="ekey">Press</p></div>
+
+            <!-- Items -->
+            <table>
+                <tr><td><p class="keyinfop">event.key</p></td></tr>
+                <tr><td><p class="keyinfod" id="ekey">Press</p></td></tr>
+            </table>
+            <table>
+                <tr><td><p class="keyinfop">event.code</p></td></tr>
+                <tr><td><p class="keyinfod" id="ecode">any</p></td></tr>
+            </table>
+            <table>
+                <tr><td><p class="keyinfop">event.which</p></td></tr>
+                <tr><td><p class="keyinfod" id="ewhich">button</p></td></tr>
+            </table>
+
+            <!-- [[Old variant]] <div><p>event.key</p><p id="ekey">Press</p></div>
             <div><p>event.code</p><p id="ecode">any</p></div>
-            <div><p>event.which</p><p id="ewhich">button</p></div>
+            <div><p>event.which</p><p id="ewhich">button</p></div>-->
         </div>
 
         <table id="table">

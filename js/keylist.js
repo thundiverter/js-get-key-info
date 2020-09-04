@@ -34,29 +34,29 @@ let keylist = [
     ['9<br/>(', 'Digit9', '57'],
 
     ['a<br/>A', 'KeyA', '65'],
-    ['b<br/>Q', 'KeyB', '66'],
-    ['c<br/>Q', 'KeyC', '67'],
-    ['d<br/>Q', 'KeyD', '68'],
-    ['e<br/>Q', 'KeyE', '69'],
-    ['f<br/>Q', 'KeyF', '70'],
-    ['g<br/>Q', 'KeyG', '71'],
-    ['h<br/>Q', 'KeyH', '72'],
-    ['i<br/>Q', 'KeyI', '73'],
-    ['j<br/>Q', 'KeyJ', '74'],
-    ['k<br/>Q', 'KeyK', '75'],
-    ['l<br/>Q', 'KeyL', '76'],
-    ['m<br/>Q', 'KeyM', '77'],
-    ['n<br/>Q', 'KeyN', '78'],
-    ['o<br/>Q', 'KeyO', '79'],
-    ['p<br/>Q', 'KeyP', '80'],
+    ['b<br/>B', 'KeyB', '66'],
+    ['c<br/>C', 'KeyC', '67'],
+    ['d<br/>D', 'KeyD', '68'],
+    ['e<br/>E', 'KeyE', '69'],
+    ['f<br/>F', 'KeyF', '70'],
+    ['g<br/>G', 'KeyG', '71'],
+    ['h<br/>H', 'KeyH', '72'],
+    ['i<br/>I', 'KeyI', '73'],
+    ['j<br/>J', 'KeyJ', '74'],
+    ['k<br/>K', 'KeyK', '75'],
+    ['l<br/>L', 'KeyL', '76'],
+    ['m<br/>M', 'KeyM', '77'],
+    ['n<br/>N', 'KeyN', '78'],
+    ['o<br/>O', 'KeyO', '79'],
+    ['p<br/>P', 'KeyP', '80'],
     ['q<br/>Q', 'KeyQ', '81'],
-    ['r<br/>Q', 'KeyR', '82'],
-    ['s<br/>Q', 'KeyS', '83'],
-    ['t<br/>Q', 'KeyT', '84'],
-    ['u<br/>Q', 'KeyU', '85'],
-    ['v<br/>Q', 'KeyV', '86'],
-    ['w<br/>Q', 'KeyW', '87'],
-    ['x<br/>Q', 'KeyX', '88'],
+    ['r<br/>R', 'KeyR', '82'],
+    ['s<br/>S', 'KeyS', '83'],
+    ['t<br/>T', 'KeyT', '84'],
+    ['u<br/>U', 'KeyU', '85'],
+    ['v<br/>V', 'KeyV', '86'],
+    ['w<br/>W', 'KeyW', '87'],
+    ['x<br/>X', 'KeyX', '88'],
     ['y<br/>Y', 'KeyY', '89'],
     ['z<br/>Z', 'KeyZ', '90'],
     ['Meta', 'MetaLeft', '91'],
@@ -114,22 +114,44 @@ let keylist = [
     ['Unidentified', '', '255'],
 ];
 
+let keylistru = [
+    ['а<br/>А', 'KeyF', '70'],
+    ['б<br/>Б', 'Comma', '188'],
+    ['в<br/>В', 'KeyD', '68'],
+    ['г<br/>Г', 'KeyU', '85'],
+    ['д<br/>Д', 'KeyL', '76'],
+    ['е<br/>Е', 'KeyT', '84'],
+    ['ё<br/>Ё', 'Backquote', '192'],
+    ['ж<br/>Ж', 'Semicolon', '186'],
+    ['з<br/>З', 'KeyP', '80'],
+    ['и<br/>И', 'Key', '70'],
+    ['й<br/>Й', 'Key', '70'],
+    ['к<br/>К', 'Key', '70'],
+    ['л<br/>Л', 'Key', '70'],
+];
+
 /*
-            <tr><td>0<br/>)</td><td>Digit0</td><td>48</td></tr>
-            <tr><td>1<br/>!</td><td>Digit1</td><td>49</td></tr>
-            <tr><td>2<br/>@<br/>"</td><td>Digit2</td><td>50</td></tr>
-            <tr><td>3<br/>#<br/>№</td><td>Digit3</td><td>51</td></tr>
-            <tr><td>4<br/>$<br/>;</td><td>Digit4</td><td>52</td></tr>
-            <tr><td>5<br/>%</td><td>Digit5</td><td>53</td></tr>
-            <tr><td>6<br/>^<br/>:</td><td>Digit6</td><td>54</td></tr>
-            <tr><td>7<br/>&<br/>?</td><td>Digit7</td><td>55</td></tr>
-            <tr><td>8<br/>*</td><td>Digit8</td><td>56</td></tr>
-            <tr><td>9<br/>(</td><td>Digit9</td><td>57</td></tr>
-
-            <tr><td>Meta</td><td>MetaLeft</td><td>91</td></tr>
-
-            <tr><td>=<br/>+</td><td>Equal</td><td>187</td></tr>
-            <tr><td>-<br/>_</td><td>Minus</td><td>189</td></tr>
-
-            <tr><td>Unidentified</td><td></td><td>255</td></tr>
+['a<br/>A', 'KeyA', '65'],
+    ['b<br/>Q', 'KeyB', '66'],
+    ['c<br/>Q', 'KeyC', '67'],
+    ['e<br/>Q', 'KeyE', '69'],
+    ['g<br/>Q', 'KeyG', '71'],
+    ['h<br/>Q', 'KeyH', '72'],
+    ['i<br/>Q', 'KeyI', '73'],
+    ['j<br/>Q', 'KeyJ', '74'],
+    ['k<br/>Q', 'KeyK', '75'],
+    ['m<br/>Q', 'KeyM', '77'],
+    ['n<br/>Q', 'KeyN', '78'],
+    ['o<br/>Q', 'KeyO', '79'],
+    ['p<br/>Q', 'KeyP', '80'],
+    ['q<br/>Q', 'KeyQ', '81'],
+    ['r<br/>Q', 'KeyR', '82'],
+    ['s<br/>Q', 'KeyS', '83'],
+    ['t<br/>Q', 'KeyT', '84'],
+    ['v<br/>Q', 'KeyV', '86'],
+    ['w<br/>Q', 'KeyW', '87'],
+    ['x<br/>Q', 'KeyX', '88'],
+    ['y<br/>Y', 'KeyY', '89'],
+    ['z<br/>Z', 'KeyZ', '90'],
+    ['Meta', 'MetaLeft', '91'],
 */

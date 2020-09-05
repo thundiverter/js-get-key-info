@@ -124,7 +124,8 @@ table#table tr, table#table td {
 table#table th {
   min-width: 160px;
   padding: 8px 16px 8px 16px;
-  background-color: #f5f5f5;
+  background-color: #488fd0;
+  color: #fff;
 }
 
 table#table td {
